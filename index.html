@@ -1,0 +1,75 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>RespondTable</title>
+    <script src="bower_components/prefixfree/prefixfree.min.js"></script>
+    <link rel="stylesheet" href="bower_components/normalize-css/normalize.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+
+<h2>Look, a table!</h2>
+
+<table class="datatable">
+  <thead>
+    <tr>
+      <th>Table Heading </th>
+      <th>Table Heading 2</th>
+      <th>Table Heading 3</th>
+      <th>Table Heading 4</th>
+      <th>Table Heading 5</th>
+    </tr>
+  </thead>
+
+  <tfoot>
+    <tr>
+      <th>Table Footer 1</th>
+      <th>Table Footer 2</th>
+      <th>Table Footer 3</th>
+      <th>Table Footer 4</th>
+      <th>Table Footer 5</th>
+    </tr>
+  </tfoot>
+
+  <tbody>
+    <tr>
+      <td>Table Cell 1 Lorem ipsum dolor sit amet.</td>
+      <td>Table Cell 2</td>
+      <td>Table Cell 3</td>
+      <td>Table Cell 4</td>
+      <td>Table Cell 5</td>
+    </tr>
+      <tr>
+      <td>Table Cell 1</td>
+      <td>Table Cell 2</td>
+      <td>Table Cell 3</td>
+      <td>Table Cell 4</td>
+      <td>Table Cell 5</td>
+    </tr>
+    <tr>
+      <td>Table Cell 1</td>
+      <td>Table Cell 2</td>
+      <td>Table Cell 3 Lorem ipsum dolor sit amet, consectetur adipisicing elit.</td>
+      <td>Table Cell 4</td>
+      <td>Table Cell 5</td>
+    </tr>
+    <tr>
+      <td>Table Cell 1</td>
+      <td>Table Cell 2</td>
+      <td>Table Cell 3</td>
+      <td>Table Cell 4</td>
+      <td>Table Cell 5</td>
+    </tr>
+  </tbody>
+</table>
+
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="respondTable.js"></script>
+
+  <script>
+    $('.datatable').respondTable();
+  </script>
+
+  </body>
+</html>

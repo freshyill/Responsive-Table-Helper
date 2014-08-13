@@ -1,0 +1,31 @@
+{
+  "name": "Responsive-Table-Helper",
+  "version": "1.0.0",
+  "homepage": "https://github.com/freshyill/Responsive-Table-Helper",
+  "authors": [
+    "Chris Coleman <freshyill@gmail.com>"
+  ],
+  "description": "Just a thing to help with responsive tables",
+  "main": "respondTable.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "jquery",
+    "responsive",
+    "table"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "normalize-css": "~3.0.1",
+    "prefixfree": "*"
+  }
+}
